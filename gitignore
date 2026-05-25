@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Model files (large — don't push to GitHub)
+*.keras
+*.h5
+*.pb
+saved_model/
+
+# Dataset folders (too large for GitHub)
+Snakes_Dataset/
+Snakes_Augmented/
+split_data/
+
+# Output images (generated during training)
+training_curves.png
+confusion_matrix.png
+per_class_accuracy.png
+test_accuracy_pie.png
+
+# Google Colab
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
